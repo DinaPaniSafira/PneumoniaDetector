@@ -57,13 +57,13 @@ python -m venv venv
 #### Windows (Command Prompt):
 
 ```bash
-.env\Scriptsctivate
+.venv\Scripts\activate
 ```
 
 #### Windows (PowerShell):
 
 ```bash
-.env\Scripts\Activate.ps1
+.venv\Scripts\Activate.ps1
 ```
 
 #### macOS / Linux:
@@ -107,27 +107,17 @@ Buka aplikasi melalui browser setelah dijalankan:
 ---
 
 ## 🛑 Catatan Penting
-
-- Tambahkan folder `venv/` ke dalam file `.gitignore`. Jangan unggah ke GitHub:
-  ```
-  venv/
-  ```
-
-- Jika ukuran file `model.h5` lebih dari **100MB**, lakukan salah satu hal berikut:
-  - Gunakan **Git LFS**
-  - Upload ke **Google Drive** dan tautkan secara manual
   - Konversi model ke format **`.tflite`** agar lebih ringan dan portable
-
-- Aplikasi sudah mendukung **Dark Mode**, cocok untuk presentasi atau penggunaan malam hari.
+  - Aplikasi sudah mendukung **Dark Mode**, cocok untuk presentasi atau penggunaan malam hari.
 
 ---
 
 ## 👨‍💻 Tim Pengembang
 
-| Nama                  | Peran   |
-|-----------------------|---------|
-| Dina Pani Safira      | 👩‍💻     |
-| Ekatri Yulisara       | 👩‍💻     |
-| Nayla Husna Ryanda    | 👩‍💻     |
-| Rahma Aliya           | 👩‍💻     |
-| Rifsya Aulia          | 👩‍💻     |
+| Nama                  |
+|-----------------------|
+| Dina Pani Safira      | 
+| Ekatri Yulisara       | 
+| Nayla Husna Ryanda    | 
+| Rahma Aliya           | 
+| Rifsya Aulia          | 
